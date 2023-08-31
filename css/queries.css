@@ -1,0 +1,24 @@
+/*mobile*/
+@media screen and (max-width: 600px) {
+  * {
+    border-collapse: collapse;
+  }
+  *::-webkit-scrollbar {
+    display: none;
+  }
+  section.intro {
+    background-position: center;
+  }
+  section.intro h1 {
+    font-size: 10vw;
+  }
+  .content article h1 {
+    font-size: 4em;
+  }
+  .content article img {
+    width: 200px;
+  }
+  .content article img.wider {
+    width: 300px;
+  }
+}

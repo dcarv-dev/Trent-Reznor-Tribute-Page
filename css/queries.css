@@ -26,7 +26,8 @@
   .content article h1 {
     font-size: 4em;
   }
-  .intro, img {
+  .intro,
+  img {
     animation: fadeIn 5s;
   }
 
